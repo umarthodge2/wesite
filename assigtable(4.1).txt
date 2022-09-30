@@ -1,0 +1,283 @@
+  
+<html>
+<head>
+ 
+    <title>Assignment 2</title>
+</head>
+<body>
+    <table border="2">
+        <tr align="center">
+            <th colspan="5" bgcolor="gray">My Multi Level Table</th>
+        </tr>
+        <tr align="center">
+            <th rowspan="2" colspan="2">Column 0</th>
+            <th rowspan="2">Column 1</th>
+            <th colspan="2">Column 2</th>
+        </tr>
+        <tr align="center">
+            <th>Column 2a</th>
+            <th>Column 2b</th>
+        </tr>
+       <tr align="center">
+           <th rowspan="2">Row 1</th>
+           <th>Row 1a</th>
+           
+            <td>123</td>
+            <td>456</td>
+            <td>789</td>
+       </tr>
+       <tr align="center">
+           <th>Row 1b</th>
+           <td>123</td>
+            <td>456</td>
+            <td>789</td>
+       </tr>
+       <tr align="center">
+        <th colspan="2">Row 2</th>
+        <td>123</td>
+         <td>456</td>
+         <td>789</td>
+    </tr>
+ 
+    </table>
+    
+    <hr>
+ 
+    <table border="2" cellspacing="2" cellpadding="10" bordercolor="purple">
+        <tr>
+            <th rowspan="2">Empno</th>
+            <th colspan="4">Marks</th>
+        </tr>
+        <tr>
+            <td>Sec A</td>
+            <td>Sec B</td>
+            <td>Sec C</td>
+            <td>Total</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>24</td>
+        </tr>
+    </table>
+ 
+    <hr>
+ 
+    <table border="2" cellpadding="5">
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="4">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th colspan="2" rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td  rowspan="2">Monday</td>
+            <td  rowspan="2" bgcolor="yellow">8:00 a.m.</td>
+            <td rowspan="2" bgcolor="gray">5:00 p.m.</td>
+            <td >Introduction to XML</td>
+
+            <tr>
+                <td >Validity DTD and Relax NG</td>
+            </tr>
+            
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td bgcolor="yellow">8:00 a.m.</td>
+            <td bgcolor="yellow">11:00 p.m.</td>
+            <td  rowspan="2" colspan="2" align="center">XPath</td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow">11:00 a.m.</td>
+            <td bgcolor="green">2:00 p.m.</td>
+            
+        </tr>
+        <tr>
+            <td bgcolor="green">2:00 p.m.</td>
+            <td bgcolor="gray">5:00 p.m.</td>
+            <td colspan="2" align="center">XSL Transformations</td>
+        </tr>
+        <tr>
+            <td >Wednesday</td>
+            <td bgcolor="yellow">8:00 a.m.</td>
+            <td bgcolor="green">12:00 p.m.</td>
+            <td  colspan="2" align="center">XSL Formatting Object</td>
+        </tr>
+    </table>
+ 
+    <hr>
+    <table border="2" cellpadding="2">
+        <tr>
+            <th>Group</th>
+            <th>Status</th>
+            <th>Name</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Employees</td>
+            <td rowspan="2">Active</td>
+            <td>John</td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Pets</td>
+            <td rowspan="2">Active</td>
+            <td>Rex</td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td>Lucy</td>
+            <td>F</td>
+        </tr>
+    </table>
+ 
+    <hr>
+ 
+
+
+    <table border="2" align="center">
+        <h4 align="center">Ian's Timetable</h4>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td colspan="3">Morning</td>
+            <td>Lunch</td>
+            <td colspan="4">Afternoon</td>
+            <td colspan="3">Evening</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>9- <br>10 <br> am</td>
+            <td>10- <br>11 <br> am</td>
+            <td>9- <br>10 <br> am</td>
+            <td>1-2 <br> pm</td>
+            <td>2- <br>3 <br> pm</td>
+            <td>3- <br>4 <br> pm</td>
+            <td>4- <br>5 <br> pm</td>
+            <td>5-6 pm</td>
+            <td>6- <br>7 <br> pm</td>
+            <td>7- <br>8 <br> pm</td>
+            <td>8-9 <br>pm</td>
+        </tr>
+        <tr>
+            <td rowspan="2" align="center">Work</td>
+            <td align="center">Monday</td>
+            <td colspan="3" align="center">Development <br> meeting</td>
+            <td></td>
+            <td colspan="3" align="center">Cilent Meeting</td>
+            <td align="center">commute</td>
+            <td colspan="3" align="center">Free</td>
+        </tr>
+        <tr>
+            
+            <td align="center" >Tuesday</td>
+            <td colspan="3" align="center">in Office</td>
+            <td></td>
+            <td colspan="7" align="center">in Office</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="2" align="center" >lecture</td>
+            <td align="center">Wednesday</td>
+            <td colspan="3" align="center">CSC205</td>
+            <td></td>
+            <td colspan="7" align="center">preparation</td>
+        </tr>
+        <tr>
+            
+            <td align="center">Thursday</td>
+            <td colspan="3" align="center">MAM200</td>
+            <td></td>
+            <td colspan="3" align="center">Tutorials <br> for <br> MAM200</td>
+            <td colspan="4" align="center">Free</td>
+        </tr>
+        <tr>
+            <td align="center">Research</td>
+            <td align="center">Friday</td>
+            <td colspan="3" align="center">Research</td>
+            <td></td>
+            <td colspan="7" align="center">Research</td>
+        </tr>
+
+
+    </table>
+
+
+    <hr>
+
+    <table border="1">
+        <tr>
+            <th colspan="2">Subject</th>
+            <th>John Doe</th>
+            <th>Mirian Luther</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Biology</th>
+            <th>Practical</th>
+            <td>A</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <th>Theory</th>
+            <td>A+</td>
+            <td>A</td>
+        </tr>
+
+
+
+        <tr>
+            <th rowspan="2">Chemistry</th>
+            <th>Practical</th>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <th>Theory</th>
+            <td>A+</td>
+            <td>C+</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Physics</th>
+            <th>Practical</th>
+            <td>A</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <th>Theory</th>
+            <td>A-</td>
+            <td>A-</td>
+        </tr>
+    </table>
+
+
+    
+</body>
+</html>
+
